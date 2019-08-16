@@ -4,7 +4,22 @@
 
 ### 功能开启与关闭
 
-- 轻点功能开启，进入 `系统偏好配置 - 触控板` ，在 `光标与点按` 中勾选 `轻点来点按`
+```shell
+# 电池显示是百分百
+defaults write com.apple.menuextra.battery -bool true
+
+# 禁止自动拼写纠正
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+# Finder 显示状态栏
+defaults write com.apple.finder ShowStatusBar -bool true
+
+# Finder 显示地址栏
+defaults write com.apple.finder ShowPathbar -bool true
+
+# 禁止在网络驱动器上生成 .DS_Store 文件
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+```
 
 ### 键盘设置
 
@@ -83,6 +98,12 @@ pbcopy < id_rsa.pub #复制一下
 - npm http-server 快速简单的服务器
 - fzy 搜索用
 - mysql mongo redis 我会用的数据库
+- nginx 服务器
+- openssl
+- git-flow-avh git-flow 的一些 alias
+- htop 更好的 top 工具
+- tree
+- aria2
 
 ### 定义 alias
 
@@ -103,6 +124,14 @@ pbcopy < id_rsa.pub #复制一下
 - vscode
 - nvm
 - postman
+- typora
+- android-file-transfer
+- java
+- dingtalk
+- wechat
+- tim
+- visual-studio-code
+- qlockcker, qlcolorcode,qlmarkdown,qlstephen 快速序览插件
 
 ### 收费的，但是还是可以 brew 安装
 
