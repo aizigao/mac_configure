@@ -16,12 +16,11 @@ fi
 
 # brew tap homebrew/versions
 brew update
-brew upgrade --all
+brew upgrade
 
 # Install packages
 apps=(
    aria2
-   boostnote
    mysql
    mongo
    nginx
@@ -38,6 +37,7 @@ apps=(
    libplist
    libpng
    yarn
+   fzf
 )
 
 caskapps=(
@@ -47,10 +47,11 @@ caskapps=(
     java
     typora
     dingtalk
+    qq
+    wechat
     virtualbox
     dukto
     visual-studio-code
-    wechat
     vlc
     boostnote
     netease
@@ -58,6 +59,7 @@ caskapps=(
     qlcolorcode
     qlmarkdown
     qlstephen
+    alacritty
 )
 
 brew install "${apps[@]}"

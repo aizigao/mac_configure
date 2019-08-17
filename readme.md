@@ -105,6 +105,13 @@ pbcopy < id_rsa.pub #复制一下
 - 插件 fancy-ctrl-z
 - 主题: bullet-train
 
+zsh-nvm
+
+```
+git clone git@github.com:lukechilds/zsh-nvm.git $ZSH-CUSTOM/plugins/zsh-nvm
+git clone git@github.com:zsh-users/zsh-autosuggestions.git $ZSH-CUSTOM/plugin/zsh-autosuggestions
+```
+
 ### 其它工具及终端 app
 
 - thefuck 爱上这个东西了，很方便
@@ -188,7 +195,7 @@ sudo spctl --master-disable
 
 ####
 
--
+TODO: 比想像中的难搞，之后继续
 
 ## 参考
 
