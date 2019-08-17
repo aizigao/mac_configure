@@ -1,4 +1,4 @@
-#! 
+#!/bin/bash
 # ~/.osx — http://mths.be/osx
 
 # root check
@@ -11,13 +11,6 @@ if [[ $EUID -ne 0 ]]; then
     exit;
 fi
 
-# select yn in "Yes" "No"; do
-#     case $yn in
-#         Yes ) 
-#               break;;
-#         No ) exit;;
-#     esac
-# done
 
 echo "This script will make your Mac awesome. Follow the prompts and you'll be fine."
 
@@ -129,7 +122,6 @@ else
     defaults write com.apple.screencapture type -string "$screenshot_format"
 fi
 
-    
 echo "Enabling subpixel font rendering on non-Apple LCDs"
 defaults write NSGlobalDomain AppleFontSmoothing -int 2
 
