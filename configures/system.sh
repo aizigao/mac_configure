@@ -406,3 +406,16 @@ echo "Killing some open applications in order to take effect."
 for app in Finder Dock Mail Safari iTunes iCal Address\ Book SystemUIServer Twitter; do
     killall "$app" > /dev/null 2>&1
 done
+
+
+
+## you will know it
+spctl --master-disable
+
+## install xcode
+# softwareupdate -i -a
+# xcode-select --install
+
+## finder reload
+
+
