@@ -14,7 +14,7 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-brew tap homebrew/versions
+# brew tap homebrew/versions
 brew update
 brew upgrade --all
 

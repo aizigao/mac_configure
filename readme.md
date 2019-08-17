@@ -95,12 +95,15 @@ pbcopy < id_rsa.pub #复制一下
 
 - 开启 zsh `chsh -s /bin/zsh`
 - 初始化 on-my-zsh
-- 插件 1:
-- 插件 2:
-- 插件 3:
-- 插件 4:
-- 插件 4:
-- 主题:
+- 插件 1: zsh-nvm 异步加载 nvm
+- 插件 git: git alias
+- 插件 git-flow: git-flow alias
+- 插件 z: 跳转
+- 插件 zsh-autosuggestions: 输入提示
+- 插件 extract: 解压
+- 插件 zsh-syntax-highlighting: 高亮
+- 插件 fancy-ctrl-z
+- 主题: bullet-train
 
 ### 其它工具及终端 app
 
