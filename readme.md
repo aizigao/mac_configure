@@ -182,6 +182,14 @@ sudo spctl --master-disable
 
 ### 软件配置
 
+#### vim
+
+- 使用neovim 4.0以上
+```
+brew install --HEAD neovim
+```
+- 使用我自己fork的[thinkvim](https://github.com/aizigao/ThinkVim)
+
 #### sizeup
 
 - send window left `!#h`

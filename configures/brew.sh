@@ -38,9 +38,12 @@ apps=(
    libpng
    yarn
    fzf
+   python
 )
 
 caskapps=(
+    boostnote
+    karabiner-elements
     android-file-transfer
     google-chrome
     android-platform-tools
