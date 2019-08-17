@@ -18,6 +18,8 @@ cp ~/temp_config/bullet-train/bullet-train.zsh-theme $ZSH_CUSTOM/themes/
 
 git clone git@github.com:lukechilds/zsh-nvm.git $ZSH_CUSTOM/plugins/zsh-nvm
 
+git clone git@github.com:zsh-users/zsh-autosuggestions.git  $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
 # zsh nvm
 
 source ~/.zshrc
