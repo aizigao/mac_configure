@@ -29,6 +29,8 @@
 # 电池显示是百分百
 defaults write com.apple.menuextra.battery -bool true
 
+# 只显示已打开的应用
+defaults write com.apple.dock static-only -boolean true; killall Dock
 # 禁止自动拼写纠正
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
@@ -144,7 +146,7 @@ git clone git@github.com:zsh-users/zsh-autosuggestions.git $ZSH-CUSTOM/plugin/zs
 
 - XMind-zen，因为经常用 Linux，为保持兼容就不用其他了
 - alacritty 终端，啥都不带，分不了屏，配合 tmux 使用，自称 gpu 加速，性能最高，反正我是信了，就用它了
-- rime 输入法, 我用新世纪五笔，就用这个了
+- quirrel rime 输入法, 我用新世纪五笔，就用这个了
 - google-chrome xx
 - vscode
 - nvm
@@ -159,6 +161,19 @@ git clone git@github.com:zsh-users/zsh-autosuggestions.git $ZSH-CUSTOM/plugin/zs
 - net-ease-music 网易云音乐
 - qlockcker, qlcolorcode,qlmarkdown,qlstephen 快速序览插件
 - docto 跨平台传输用
+- adobe-creative-cloud adobe 家全家桶
+- boostnote 程序员用
+- google-chrome
+- iina 视
+- jietu 截图工具，腾讯家的，就不开 qq 使了
+- karabiner-elements 改键用，我当前用的一个是 caps -> ctrl + esc
+- neteasemusic 网易云音乐
+- postman
+- qq, wechat
+- sequel-pro - mysql gui
+- typora markdown 编辑器
+- wpsoffice
+- xmind-zen 思维导图
 
 ### 收费的，但是还是可以 brew 安装
 
@@ -168,11 +183,13 @@ git clone git@github.com:zsh-users/zsh-autosuggestions.git $ZSH-CUSTOM/plugin/zs
 
 ### 收费的或要自已编译和下载的
 
+- Alfred 代替 spotlight 用和剪切板功能
 - electronic-ssr 听说作者主动下架了，不管了，当前用着爽
 - SourceTree git 管理，一般我用来看 git log
 - sizeUp mac 自带的分屏不好用啊，喜欢用这个
 - Bartendar 状态管理
-- xx cpu ram network 监控用
+- ToothFairy 蓝牙管理
+- iStat Menu - cpu ram network 监控用
 
 ### 那啥用, 小弟还是穷
 
@@ -184,11 +201,13 @@ sudo spctl --master-disable
 
 #### vim
 
-- 使用neovim 4.0以上
+- 使用 neovim 4.0 以上
+
 ```
 brew install --HEAD neovim
 ```
-- 使用我自己fork的[thinkvim](https://github.com/aizigao/ThinkVim)
+
+- 使用我自己 fork 的[thinkvim](https://github.com/aizigao/ThinkVim)
 
 #### sizeup
 
@@ -203,7 +222,10 @@ brew install --HEAD neovim
 
 ####
 
-TODO: 比想像中的难搞，之后继续
+TODO:
+
+- [ ] 备份配置
+- [ ] dotfiles
 
 ## 参考
 

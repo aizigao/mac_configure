@@ -26,26 +26,31 @@ apps=(
    nginx
    redis
    nvm
-   openssl
-   git
-   git-flow-avh
    htop
-   thefuck
-   tmux
    vim
    wget
    libplist
    libpng
-   yarn
-   fzf
    python
+   autoconf
+   cmake
+   fzf
+   git
+   git-flow-avh
+   neovim
+   openssl
+   readline
+   ripgrep
+   sqlite
+   thefuck
+   tig
+   tmux
+   universal-ctags
+   yarn
 )
 
 caskapps=(
-    boostnote
-    karabiner-elements
     android-file-transfer
-    google-chrome
     android-platform-tools
     java
     typora
@@ -63,6 +68,18 @@ caskapps=(
     qlmarkdown
     qlstephen
     alacritty
+    adobe-creative-cloud
+    google-chrome
+    iina
+    jietu
+    karabiner-elements
+    neteasemusic
+    postman
+    qq
+    sequel-pro
+    squirrel
+    wpsoffice
+    xmind-zen
 )
 
 brew install "${apps[@]}"
