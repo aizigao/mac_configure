@@ -101,7 +101,21 @@ pbcopy < id_rsa.pub #复制一下
 - 插件 git: git alias
 - 插件 git-flow: git-flow alias
 - 插件 z: 跳转
-- 插件 zsh-autosuggestions: 输入提示
+- 插件 zsh-autosuggestions: 输入提示, 有个问题，用了之后粘贴会很慢
+
+```shell
+pasteinit() {
+  OLD_SELF_INSERT=${${(s.:.)widgets[self-insert]}[2,3]}
+  zle -N self-insert url-quote-magic # I wonder if you'd need `.url-quote-magic`?
+}
+
+pastefinish() {
+  zle -N self-insert $OLD_SELF_INSERT
+}
+zstyle :bracketed-paste-magic paste-init pasteinit
+zstyle :bracketed-paste-magic paste-finish pastefinish
+```
+
 - 插件 extract: 解压
 - 插件 zsh-syntax-highlighting: 高亮
 - 插件 fancy-ctrl-z
