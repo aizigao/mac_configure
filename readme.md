@@ -236,7 +236,8 @@ brew install --HEAD neovim
 
 #### 外屏 hidpi
 
-连接 2k，4k 外屏没有开启 hidpi，可以用这个玩意[enable-hidpi-osx](https://github.com/syscl/Enable-HiDPI-OSX)
+连接 2k，4k 外屏没有开启 hidpi，可以用这个玩意[enable-hidpi-osx](https://github.com/syscl/Enable-HiDPI-OSX),添加额外分辨率
+调整分辨率用 [rdm](https://github.com/avibrazil/RDM)
 
 ####
 
