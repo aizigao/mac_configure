@@ -234,6 +234,10 @@ brew install --HEAD neovim
 - send window center `!#m`
 - make window full screen `!#space`
 
+#### 外屏 hidpi
+
+连接 2k，4k 外屏没有开启 hidpi，可以用这个玩意[enable-hidpi-osx](https://github.com/syscl/Enable-HiDPI-OSX)
+
 ####
 
 TODO:
