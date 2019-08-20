@@ -123,9 +123,15 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 
 zsh-nvm
 
-```
+```shell
 git clone git@github.com:lukechilds/zsh-nvm.git $ZSH-CUSTOM/plugins/zsh-nvm
 git clone git@github.com:zsh-users/zsh-autosuggestions.git $ZSH-CUSTOM/plugin/zsh-autosuggestions
+```
+
+```shell
+plugins=(
+
+)
 ```
 
 ### 其它工具及终端 app
