@@ -22,7 +22,6 @@ brew upgrade
 apps=(
    aria2
    mysql
-   mongo
    nginx
    redis
    nvm
@@ -45,7 +44,6 @@ apps=(
    thefuck
    tig
    tmux
-   universal-ctags
    yarn
 )
 
@@ -58,11 +56,9 @@ caskapps=(
     qq
     wechat
     virtualbox
-    dukto
     visual-studio-code
     vlc
     boostnote
-    netease
     qblocker
     qlcolorcode
     qlmarkdown
