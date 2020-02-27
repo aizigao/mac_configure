@@ -217,6 +217,12 @@ plugins=(
 sudo spctl --master-disable
 ```
 
+10.14
+
+```
+sudo xattr -rd com.apple.quarantine /Applications/xxxxxx.app
+```
+
 ### 软件配置
 
 #### vim
